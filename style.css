@@ -8,13 +8,13 @@
 
 body {
   background-color: rgb(140, 58, 135);
-  margin: 0;
-  height: 90vh;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
 /*------------------Canvas---------------*/
 
 .title {
@@ -36,24 +36,28 @@ h1{
 /*------------------Style of score--------------*/
 .text {
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 25px;
   color: white;
 }
+
 /*--------------------Style of 0----------------*/
 .score {
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 25px;
   color: white;
   font-weight: bold;
 }
 /*--------------sytle of playButton-------------*/
 .playButton {
   cursor: pointer;
-  color: #000;
+  background-color:#F29C1F;
+  width: 60px;
+  color: white;
   padding: 5px;
   font-size: 18px;
   border-radius: 10px;
-  box-shadow: none;
+  border: none;
+  box-shadow:#f0e7e6;
   margin-top: 15px;
 }
 /*--------------sytle of playerName-------------*/
@@ -62,8 +66,8 @@ h1{
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 5px;
+  color: #f0e7e6;
 }
-
 
 .controls{
   display: flex;
@@ -78,8 +82,8 @@ width: 100px;
 height: 100px;
 }
 span{
-width: 200px;
-height: 200px;
+width: 100px;
+height: 100px;
 color: #f0e7e6;
 
 
